@@ -351,14 +351,14 @@ function toposition(Point)
     if _G.StopTween == true then tot:Cancel();_G.Clip = false end
     if _G.StopTween then
         tot:Cancel()
-        BringMobFarm = false
+        BringMobFarm = true
         UseSkillGun = false
         UseSkill = false
     elseif game.Players.LocalPlayer.Character.Humanoid.Health > 0 then
         tot:Play()
     elseif game.Players.LocalPlayer.Character.Humanoid.Health <= 0 then
         tot:Cancel()
-        BringMobFarm = false
+        BringMobFarm = true
         UseSkillGun = false
         UseSkill = false
         wait(0.5)
