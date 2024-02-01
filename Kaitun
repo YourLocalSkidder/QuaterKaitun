@@ -21,7 +21,7 @@ _G.Settings = {
 
 	},
 }
-_G.Bring_Mob = false
+_G.Bring_Mob = true
 if _G.Config then
 	if _G.Settings.Main["Auto Farm"] then
 		_G.StartFarm = true
